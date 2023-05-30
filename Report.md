@@ -287,7 +287,7 @@ env.close()
 
 The above results were obtained with a learning rate of 1e-5. While the following results were obtained with a learning rate of 1e-4. With a higher learning rate, the training was slower (surprisingly not faster!) as the environment was solved in 252 episodes instead of 187 (you can find additional weights and notebook for that run in the repo). It is also more unstable as you can see with the flactuations of the reward each episode (i.e., high variance). Also when trying our with 1e-3 value for the learning rate, the model never converges. This is a quite common behavior when the neural network is too deep (i.e., have too much parameters) and thus too prone for oscillation around the desired minima or maxima. You can check this blog for more details (https://www.jeremyjordan.me/nn-learning-rate/). On the other hand having a very low learning rate can lead to being stuck in local minima/maxima, however, the used Adam optimizer can overcome that with the momentum aspect.
 
-![image.png](attachment:image.png)
+![image.png](output_17_0.png)
 
 # Future directions
 
