@@ -2,6 +2,8 @@
 
 This Notebook and the generated report are my implementation of the second Udacity project.
 
+Note that the solution and report implemented for one agent option, the twenty agents is left for future work.
+
 You will find comments per cell block and comments along the code to explain the implementation. As suggested by Udacity, you can already use their provided code for DDPG and their neural network implementation. Simple adjustments are then made to adapt this code to work with implementation for Unity ml-agent as their initial code is done for Gym environments.
 However, the neural network and hyperparameters needed a lot of tuning as discussed at the end.
 
@@ -69,16 +71,26 @@ If you haven't already, please follow the instructions in the DRLND [GitHub repo
 #### Step 2: Download the Unity Environment
 For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
-Version 1: One (1) Agent
+##### Version 1: One (1) Agent
+
 Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+
 Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
-Version 2: Twenty (20) Agents
+
+##### Version 2: Twenty (20) Agents
+
 Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+
 Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+
 Then, place the file in this root folder, and unzip (or decompress) the file.
 
 
