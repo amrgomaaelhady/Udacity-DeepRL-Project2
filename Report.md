@@ -3,7 +3,7 @@
 ---
 
 This Notebook and the generated pdf report are my implementation of the second Udacity project.
-This Notebook was ran on Udacity workspace with GPU support.
+This Notebook was run on Udacity workspace with GPU support.
 
 Note that the entire training took 2 hours.
 
