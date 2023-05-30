@@ -1,6 +1,6 @@
 # Udacity-DRL-Continuous-Control
 
-This Notebook and the generated pdf report are my implementation of the second Udacity project.
+This Notebook and the generated report are my implementation of the second Udacity project.
 
 You will find comments per cell block and comments along the code to explain the implementation. As suggested by Udacity, you can already use their provided code for DDPG and their neural network implementation. Simple adjustments are then made to adapt this code to work with implementation for Unity ml-agent as their initial code is done for Gym environments.
 However, the neural network and hyperparameters needed a lot of tuning as discussed at the end.
